@@ -21,8 +21,8 @@ app.get('/articletwo',function (req,res){
 app.get('/articlethree',function (req,res){
    res.send('article one requested and will be served three');
 })
-app.get('/Mudhal', function (req,res) {
- res.sendFile(path.join(__dirname, 'ui','Mudhal.html'));
+app.get('/mudhal', function (req,res) {
+ res.sendFile(path.join(__dirname, 'ui','mudhal.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
