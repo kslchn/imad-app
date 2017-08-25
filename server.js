@@ -19,6 +19,10 @@ app.use(bodyParser.json());
 
 function createTemplate (data) { ` ` }
 
+app.get('/mudhal', function (req,res) {
+ res.sendFile(path.join(__dirname, 'ui','mudhal.html'));
+});
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
@@ -52,9 +56,7 @@ app.post('/create-user', function(req, res){
     
 });
 
-app.get('/mudhal', function (req,res) {
- res.sendFile(path.join(__dirname, 'ui','mudhal.html'));
-});
+
 app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
