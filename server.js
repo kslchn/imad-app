@@ -17,7 +17,7 @@ var app = express();
 app.use(morgan('combined'));
 app.use(bodyParser.json());
 
-function createTemplate (data) {"*"}
+function createTemplate (data) { ` ` }
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
