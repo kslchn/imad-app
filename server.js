@@ -98,7 +98,7 @@ app.get('/articletwo',function (req,res){
 });
 
 app.get('/articlethree',function (req,res){
-   res.send('article one requested and will be served three');
+   res.send('article three requested and will be served here');
 });
 
 
