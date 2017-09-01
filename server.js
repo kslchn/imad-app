@@ -83,8 +83,8 @@ app.get('/mudhal', function (req,res) {
 });
 
 
-app.get('/articleone', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'articleone.html'));
+app.get('/article-one', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
 
   
