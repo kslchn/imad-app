@@ -78,13 +78,14 @@ app.post('/login', function(req, res) {
     }); 
 });
 
-app.get('/mudhal', function (req,res) {
- res.sendFile(path.join(__dirname, 'ui','mudhal.html'));
-});
 
 
 app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui','article-one.html'));
+});
+
+app.get('/mudhal', function (req,res) {
+ res.sendFile(path.join(__dirname, 'ui','mudhal.html'));
 });
 
   app.get('/second', function (req, res) {
