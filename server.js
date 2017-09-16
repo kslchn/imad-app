@@ -84,17 +84,17 @@ app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui','article-one.html'));
 });
 
-app.get('/mudhal', function (req,res) {
+app.get('/mudhal', function (req, res) {
  res.sendFile(path.join(__dirname, 'ui','mudhal.html'));
 });
 
   
 
-app.get('/articletwo',function (req,res){
+app.get('/articletwo',function (req, res){
    res.send('article two requested and will be served here');
 });
 
-app.get('/articlethree',function (req,res){
+app.get('/articlethree',function (req, res){
    res.send('article three requested and will be served here');
 });
 
