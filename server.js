@@ -88,9 +88,7 @@ app.get('/mudhal', function (req,res) {
  res.sendFile(path.join(__dirname, 'ui','mudhal.html'));
 });
 
-  app.get('/third', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'third.html'));
-});
+  
 
 app.get('/articletwo',function (req,res){
    res.send('article two requested and will be served here');
